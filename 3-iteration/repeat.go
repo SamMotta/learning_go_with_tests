@@ -1,10 +1,7 @@
 package main
 
-func Repeat(x string, repeatCount int) (text string) {
+import "strings"
 
-	for range repeatCount {
-		text += x
-	}
-
-	return
+func Repeat(x string, repeatCount int) string {
+	return strings.Repeat(x, repeatCount)
 }
