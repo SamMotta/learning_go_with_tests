@@ -10,3 +10,9 @@ This repository was created to track my learning in Golang and TDD
 ### To read
 
 [Slices intro](https://go.dev/blog/slices-intro)
+
+### Notes
+
++ Use channels when passing ownership of data
+
++ Use mutexes for managing state
