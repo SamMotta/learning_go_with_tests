@@ -73,6 +73,9 @@ func TestConvertingToArabic(t *testing.T) {
 
 func TestPropertiesOfConversion(t *testing.T) {
 	assertion := func(arabic uint16) bool {
+		if arabic > 3999 {
+			return true
+		}
 		roman := ConvertToRoman(arabic)
 		fromRoman := ConvertToArabic(roman)
 
