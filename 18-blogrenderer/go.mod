@@ -7,4 +7,5 @@ replace github.com/SamMotta/blogposts => ../17-blogposts
 require (
 	github.com/SamMotta/blogposts v0.0.0-00010101000000-000000000000
 	github.com/approvals/go-approval-tests v0.0.0-20240417152556-434b9105e958
+	github.com/gomarkdown/markdown v0.0.0-20240730141124-034f12af3bf6
 )
